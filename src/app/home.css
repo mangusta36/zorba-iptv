@@ -1,0 +1,148 @@
+.zorba-hero { position: relative; min-height: 660px; isolation: isolate; overflow: hidden; background: #101718; }
+.zorba-hero-image { z-index: -2; object-fit: cover; object-position: center 52%; }
+.zorba-hero-scrim { position: absolute; z-index: -1; inset: 0; background: linear-gradient(90deg, rgba(9,14,15,.97) 0%, rgba(9,14,15,.88) 28%, rgba(9,14,15,.38) 60%, rgba(9,14,15,.12) 100%); }
+.zorba-hero-content { display: flex; min-height: 610px; align-items: center; }
+.zorba-hero-copy { width: min(600px, 60%); padding-block: 75px; }
+.zorba-hero .eyebrow span { display: inline-block; width: 17px; height: 1px; margin: 0 12px 4px; background: var(--accent); }
+.zorba-hero h1, .section-heading h2, .device-layout h2, .faq-layout h2, .closing-layout h2 { margin: 0; font-family: Georgia, "Times New Roman", serif; font-weight: 400; letter-spacing: -.052em; }
+.zorba-hero h1 { max-width: 620px; font-size: clamp(55px, 5.4vw, 83px); line-height: 1.045; }
+.zorba-hero h1 em, .section-heading h2 em, .faq-layout h2 em { color: var(--accent); font-weight: 400; }
+.zorba-hero-copy > p:not(.eyebrow) { max-width: 505px; margin: 29px 0 0; color: #d2d7d1; font-size: 16px; line-height: 1.75; }
+.hero-actions { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 35px; }
+.hero-actions .btn { min-height: 50px; }
+.hero-index { display: flex; justify-content: space-between; gap: 20px; padding-block: 16px 20px; border-top: 1px solid rgba(242,239,232,.3); color: #c4cbc4; font-size: 10px; font-weight: 700; letter-spacing: .19em; }
+.section-heading { display: flex; align-items: end; justify-content: space-between; gap: 45px; }
+.section-heading h2, .device-layout h2, .faq-layout h2 { font-size: clamp(40px, 4.2vw, 66px); line-height: 1.1; }
+.section-heading > p { max-width: 355px; margin: 0 0 6px; color: var(--muted); font-size: 15px; line-height: 1.75; }
+.showcase-section { padding-block: 110px 115px; }
+.showcase-grid { display: grid; grid-template-columns: 1.7fr 1fr; gap: 17px; margin-top: 46px; }
+.showcase-image { position: relative; min-width: 0; height: 495px; margin: 0; overflow: hidden; background: var(--surface); }
+.showcase-image img { object-fit: cover; transition: transform .4s ease; }
+.showcase-image:hover img { transform: scale(1.025); }
+.showcase-sport img { object-position: center; }
+.showcase-live img { object-position: 35% center; }
+.showcase-image::after { content: ""; position: absolute; inset: 50% 0 0; background: linear-gradient(transparent, rgba(0,0,0,.62)); pointer-events: none; }
+.showcase-image figcaption { position: absolute; z-index: 1; right: 25px; bottom: 25px; left: 25px; display: flex; justify-content: space-between; gap: 15px; color: white; font-size: 11px; font-weight: 800; letter-spacing: .2em; }
+.showcase-image figcaption span { color: var(--accent); }
+.explain-section { padding-block: 95px; border-top: 1px solid var(--line); background: #101819; }
+.explain-layout, .players-layout, .setup-layout, .quality-layout { display: grid; grid-template-columns: .78fr 1.22fr; gap: clamp(50px, 8vw, 125px); align-items: start; }
+.explain-layout h2, .players-layout h2, .setup-layout h2, .quality-layout h2 { margin: 0; font-family: Georgia, "Times New Roman", serif; font-size: clamp(40px, 4.2vw, 62px); font-weight: 400; letter-spacing: -.045em; line-height: 1.1; }
+.explain-copy p, .players-layout > div:first-child p, .setup-layout > div:first-child p, .quality-points p { margin: 0 0 21px; color: var(--muted); font-size: 15px; line-height: 1.82; }
+.explain-links { display: flex; flex-wrap: wrap; gap: 18px 28px; margin-top: 29px; }
+.device-section { padding-block: 95px; border-block: 1px solid var(--line); background: var(--surface); }
+.device-layout { display: grid; grid-template-columns: 1fr 1fr; gap: clamp(60px, 11vw, 175px); }
+.device-layout h2 { max-width: 570px; }
+.device-layout p:not(.eyebrow) { max-width: 520px; margin: 25px 0 25px; color: var(--muted); font-size: 15px; line-height: 1.8; }
+.device-list { align-self: center; margin: 0; padding: 0; list-style: none; }
+.device-list li { display: flex; align-items: baseline; gap: 20px; padding: 19px 0; border-bottom: 1px solid var(--line); font-family: Georgia, serif; font-size: clamp(22px, 2.3vw, 32px); }
+.device-list li:first-child { border-top: 1px solid var(--line); }
+.device-list span { min-width: 28px; color: var(--accent); font-family: var(--font-body), sans-serif; font-size: 11px; font-weight: 800; }
+.compat-section, .players-section, .fit-section, .setup-section, .sports-section, .use-section { padding-block: 105px; }
+.compat-section { background: #101819; }
+.content-card-grid { display: grid; gap: 16px; margin-top: 44px; }
+.device-card-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+.players-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); margin-top: 0; }
+.info-card { display: flex; min-width: 0; min-height: 275px; flex-direction: column; padding: 27px 24px; border: 1px solid var(--line); background: #151e1f; }
+.info-card h3 { margin: 0; font-family: Georgia, serif; font-size: 25px; font-weight: 400; line-height: 1.18; }
+.info-card p { margin: 17px 0 24px; color: var(--muted); font-size: 14px; line-height: 1.72; }
+.info-card .text-link { margin-top: auto; align-self: flex-start; }
+.plans-section { padding-block: 110px; }
+.plans-heading > p { max-width: 315px; }
+.process-section { padding-block: 100px 112px; background: #141d1e; }
+.process-heading { display: block; }
+.process-heading h2 { font-size: clamp(40px, 4.2vw, 62px); }
+.process-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 28px; margin-top: 58px; }
+.process-grid > div { padding-top: 23px; border-top: 1px solid var(--line); }
+.process-grid span { color: var(--accent); font-size: 13px; font-weight: 800; }
+.process-grid h3 { margin: 28px 0 10px; font-family: Georgia, serif; font-size: 28px; font-weight: 400; }
+.process-grid p { max-width: 340px; margin: 0; color: var(--muted); font-size: 14px; line-height: 1.75; }
+.players-section { border-bottom: 1px solid var(--line); background: var(--surface); }
+.fit-section { background: #101819; }
+.fit-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 16px; margin-top: 44px; }
+.fit-item { min-height: 255px; padding: 27px 24px; border: 1px solid var(--line); background: #151e1f; }
+.fit-item h3 { margin: 0; font-family: Georgia, serif; font-size: 25px; font-weight: 400; line-height: 1.18; }
+.fit-item p { margin: 17px 0 0; color: var(--muted); font-size: 14px; line-height: 1.72; }
+.setup-section { background: #101819; }
+.guide-list { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0 28px; border-top: 1px solid var(--line); }
+.guide-list a { display: flex; align-items: center; justify-content: space-between; gap: 20px; min-height: 74px; border-bottom: 1px solid var(--line); color: var(--foreground); font-size: 15px; font-weight: 700; line-height: 1.35; }
+.guide-list a:hover { color: var(--accent); }
+.guide-list svg { flex: none; color: var(--accent); }
+.quality-section { padding-block: 105px; border-block: 1px solid var(--line); background: var(--surface); }
+.quality-points .text-link { margin-top: 5px; }
+.sports-section { background: #101819; }
+.sports-layout { display: grid; grid-template-columns: .9fr 1.1fr; gap: clamp(48px, 7vw, 110px); align-items: start; }
+.sports-layout h2 { margin: 0; font-family: Georgia, "Times New Roman", serif; font-size: clamp(40px, 4.2vw, 62px); font-weight: 400; letter-spacing: -.045em; line-height: 1.1; }
+.sports-layout p { margin: 24px 0 25px; color: var(--muted); font-size: 15px; line-height: 1.8; }
+.sports-list { border-top: 1px solid var(--line); }
+.sports-list a { display: grid; grid-template-columns: minmax(0, .75fr) minmax(0, 1fr) auto; gap: 22px; align-items: center; min-height: 94px; border-bottom: 1px solid var(--line); }
+.sports-list strong { font-family: Georgia, serif; font-size: 23px; font-weight: 400; line-height: 1.2; }
+.sports-list span { color: var(--muted); font-size: 14px; line-height: 1.6; }
+.sports-list svg { color: var(--accent); }
+.sports-list a:hover strong { color: var(--accent); }
+.use-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 16px; margin-top: 44px; }
+.use-item { min-height: 210px; padding: 25px 23px; border-top: 1px solid var(--line); background: #111a1b; }
+.use-item h3 { margin: 0; font-family: Georgia, serif; font-size: 24px; font-weight: 400; line-height: 1.2; }
+.use-item p { margin: 16px 0 0; color: var(--muted); font-size: 14px; line-height: 1.7; }
+.home-faq { padding-block: 115px; }
+.faq-layout { display: grid; grid-template-columns: .8fr 1.2fr; gap: clamp(55px, 8vw, 135px); }
+.faq-layout h2 { max-width: 460px; }
+.faq-layout > div:first-child > p:not(.eyebrow) { margin: 27px 0 25px; color: var(--muted); font-size: 15px; }
+.closing-section { padding-block: 77px; border-top: 1px solid var(--line); background: #1a2424; }
+.closing-layout { display: flex; align-items: end; justify-content: space-between; gap: 50px; }
+.closing-layout h2 { max-width: 650px; font-size: clamp(38px, 4.5vw, 62px); line-height: 1.12; }
+.closing-layout .btn { flex: none; min-height: 52px; }
+
+@media (max-width: 1000px) {
+  .zorba-hero-copy { width: min(560px, 70%); }
+  .showcase-image { height: 400px; }
+  .device-layout { gap: 45px; }
+  .faq-layout { grid-template-columns: .85fr 1.15fr; gap: 45px; }
+  .device-card-grid, .fit-grid, .use-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .players-grid, .process-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .sports-list a { grid-template-columns: minmax(0, .8fr) minmax(0, 1.1fr) auto; }
+}
+@media (max-width: 767px) {
+  .zorba-hero { min-height: 600px; }
+  .zorba-hero-image { object-position: 61% center; }
+  .zorba-hero-scrim { background: linear-gradient(90deg, rgba(9,14,15,.87), rgba(9,14,15,.55)), linear-gradient(0deg, rgba(9,14,15,.92), transparent 65%); }
+  .zorba-hero-content { min-height: 553px; align-items: end; }
+  .zorba-hero-copy { width: 100%; padding-block: 90px 52px; }
+  .zorba-hero h1 { max-width: 600px; font-size: clamp(45px, 8vw, 63px); }
+  .zorba-hero-copy > p:not(.eyebrow) { max-width: 540px; font-size: 15px; }
+  .hero-index { font-size: 9px; }
+  .section-heading { align-items: start; flex-direction: column; gap: 18px; }
+  .showcase-section, .plans-section, .home-faq, .compat-section, .players-section, .fit-section, .setup-section, .sports-section, .quality-section, .use-section { padding-block: 75px; }
+  .showcase-grid { grid-template-columns: 1fr 1fr; margin-top: 34px; }
+  .showcase-image { height: 330px; }
+  .explain-section { padding-block: 75px; }
+  .explain-layout, .players-layout, .setup-layout, .quality-layout, .sports-layout { grid-template-columns: 1fr; gap: 33px; }
+  .device-section { padding-block: 70px; }
+  .device-layout { grid-template-columns: 1fr; gap: 42px; }
+  .process-section { padding-block: 70px; }
+  .faq-layout { grid-template-columns: 1fr; }
+  .closing-layout { align-items: start; flex-direction: column; gap: 25px; }
+}
+@media (max-width: 550px) {
+  .zorba-hero { min-height: 620px; }
+  .zorba-hero-content { min-height: 573px; }
+  .zorba-hero .eyebrow { font-size: 10px; letter-spacing: .13em; }
+  .zorba-hero h1 { font-size: clamp(43px, 12vw, 58px); }
+  .zorba-hero-copy > p:not(.eyebrow) { margin-top: 23px; line-height: 1.65; }
+  .hero-actions { gap: 9px; }
+  .hero-actions .btn { flex: 1; min-width: 0; padding-inline: 12px; font-size: 12px; }
+  .hero-index span:last-child { display: none; }
+  .section-heading h2, .device-layout h2, .faq-layout h2 { font-size: clamp(38px, 10vw, 49px); }
+  .showcase-grid { display: flex; flex-direction: column; gap: 10px; }
+  .showcase-image { height: auto; aspect-ratio: 1.16; }
+  .showcase-live { aspect-ratio: 1.55; }
+  .device-list li { font-size: 26px; }
+  .device-card-grid, .players-grid, .fit-grid, .guide-list, .use-grid { grid-template-columns: 1fr; }
+  .info-card, .fit-item, .use-item { min-height: 0; }
+  .sports-list a { grid-template-columns: 1fr auto; gap: 7px 16px; padding-block: 18px; }
+  .sports-list span { grid-column: 1 / 2; }
+  .sports-list svg { grid-column: 2; grid-row: 1 / 3; }
+  .process-grid { grid-template-columns: 1fr; gap: 27px; margin-top: 37px; }
+  .process-grid h3 { margin-top: 14px; }
+  .closing-layout h2 { font-size: 42px; }
+  .closing-layout .btn { width: 100%; }
+}
