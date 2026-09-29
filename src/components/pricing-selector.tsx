@@ -7,6 +7,11 @@ import { planOrderUrl, whatsappMessages, whatsappUrl } from "@/lib/whatsapp";
 import { formatCurrency } from "@/lib/utils";
 import { Button } from "./button";
 
+function planHeading(duration: string) {
+  const [count] = duration.split(" ");
+  return `${count}-Month Zorba IPTV Plan`;
+}
+
 export function PricingSelector() {
   const [devices, setDevices] = useState<DeviceCount>(1);
   const plans = pricingPlans[devices];
@@ -17,7 +22,7 @@ export function PricingSelector() {
     </div></div>
     <div className="plan-grid" aria-live="polite">
       {plans.map((plan) => <article className="plan-card" key={plan.id}>
-        <div className="plan-top"><h3>{plan.duration}</h3><span>{devices} {devices === 1 ? "screen" : "screens"}</span></div>
+        <div className="plan-top"><h3>{planHeading(plan.duration)}</h3><span>{devices} {devices === 1 ? "screen" : "screens"}</span></div>
         <p className="plan-price">{formatCurrency(plan.price)}</p>
         <p className="plan-caption">One clear price for the full term.</p>
         <ul>{pricingFeatures.slice(0, 4).map((feature) => <li key={feature}><Check aria-hidden="true" />{feature}</li>)}</ul>

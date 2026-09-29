@@ -3,7 +3,9 @@ import { trialMessage, whatsappUrl } from "@/lib/whatsapp";
 
 export const metadata = {
   title: "Zorba IPTV Free Trial",
-  description: "Request a Zorba IPTV free trial and tell Zorba TV which device you plan to use."
+  description: "Request a Zorba IPTV free trial and tell Zorba TV which device you plan to use.",
+  alternates: { canonical: "/free-trial" },
+  openGraph: { url: "/free-trial" }
 };
 
 export default function FreeTrialPage() {

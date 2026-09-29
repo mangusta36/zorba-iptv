@@ -3,7 +3,9 @@ import { faqs } from "@/config/site";
 
 export const metadata = {
   title: "Zorba IPTV FAQ",
-  description: "Answers about Zorba IPTV plans, Zorba TV setup, compatible devices, trials and support."
+  description: "Answers about Zorba IPTV plans, Zorba TV setup, compatible devices, trials and support.",
+  alternates: { canonical: "/faq" },
+  openGraph: { url: "/faq" }
 };
 
 export default function FaqPage() {

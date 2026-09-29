@@ -1,6 +1,7 @@
 import articles from "../src/config/blog-data.json" with { type: "json" };
 
 const base = process.argv[2] || "http://localhost:3000";
+const canonicalBase = "https://www.zorbatv.us";
 const paths = ["/blog", "/sitemap.xml", "/robots.txt", ...articles.map((article) => `/blog/${article.slug}`)];
 const failures = [];
 
@@ -14,7 +15,7 @@ for (const path of paths) {
     const slug = path.split("/").pop();
     const article = articles.find((item) => item.slug === slug);
     if (!text.includes(`<h1>${escapeHtml(article.title)}</h1>`)) failures.push(`${path} missing h1`);
-    if (!text.includes(`rel="canonical" href="${base}${path}"`)) failures.push(`${path} missing self canonical`);
+    if (!text.includes(`rel="canonical" href="${canonicalBase}${path}"`)) failures.push(`${path} missing self canonical`);
     if (!text.includes("application/ld+json")) failures.push(`${path} missing JSON-LD`);
     if (!text.includes('id="faq"')) failures.push(`${path} missing visible FAQ section`);
     if (!text.includes(article.images.hero.src)) failures.push(`${path} missing hero image path`);
@@ -25,11 +26,11 @@ for (const path of paths) {
 
   if (path === "/sitemap.xml") {
     for (const article of articles) {
-      if (!text.includes(`${base}/blog/${article.slug}`)) failures.push(`sitemap missing ${article.slug}`);
+      if (!text.includes(`${canonicalBase}/blog/${article.slug}`)) failures.push(`sitemap missing ${article.slug}`);
     }
   }
 
-  if (path === "/robots.txt" && !text.includes(`${base}/sitemap.xml`)) {
+  if (path === "/robots.txt" && !text.includes(`${canonicalBase}/sitemap.xml`)) {
     failures.push("robots missing sitemap");
   }
 }

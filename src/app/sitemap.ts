@@ -12,9 +12,6 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     "/faq",
     "/contact",
     "/about",
-    "/checkout",
-    "/checkout/success",
-    "/checkout/cancel",
     "/privacy-policy",
     "/terms-and-conditions",
     "/refund-policy",
@@ -23,7 +20,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
 
   return [
     ...staticRoutes.map((route) => ({
-      url: `${origin}${route}`,
+      url: route ? `${origin}${route}` : `${origin}/`,
       lastModified: new Date()
     })),
     ...blogArticles.map((post) => ({

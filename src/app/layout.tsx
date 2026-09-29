@@ -8,7 +8,7 @@ import "./globals.css";
 const cantarell = localFont({ src: "../fonts/Cantarell-VF.otf", variable: "--font-body", display: "swap", weight: "100 900" });
 
 export const metadata: Metadata = {
-  metadataBase: siteConfig.brand.domain ? new URL(siteConfig.brand.domain) : undefined,
+  metadataBase: new URL(siteConfig.brand.domain),
   applicationName: siteConfig.brand.formalName,
   title: {
     default: `${siteConfig.brand.formalName} | Official Zorba TV Website`,
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     description: `${siteConfig.brand.formalName} helps viewers compare entertainment plans, compatible devices and setup guidance from the official Zorba TV website.`,
     siteName: siteConfig.brand.formalName,
     type: "website",
-    ...(siteConfig.brand.domain ? { url: siteConfig.brand.domain } : {})
+    url: `${siteConfig.brand.domain}/`
   },
   twitter: {
     card: "summary_large_image",
@@ -34,7 +34,7 @@ export const metadata: Metadata = {
     ],
     shortcut: "/favicon.ico"
   },
-  ...(siteConfig.brand.domain ? { alternates: { canonical: "/" } } : {})
+  alternates: { canonical: `${siteConfig.brand.domain}/` }
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

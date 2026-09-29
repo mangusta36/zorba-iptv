@@ -2,7 +2,9 @@ import { siteConfig } from "@/config/site";
 
 export const metadata = {
   title: "About Zorba IPTV",
-  description: "Learn how Zorba IPTV, also known as Zorba TV, organizes entertainment plans, compatible device guidance and support information."
+  description: "Learn how Zorba IPTV, also known as Zorba TV, organizes entertainment plans, compatible device guidance and support information.",
+  alternates: { canonical: "/about" },
+  openGraph: { url: "/about" }
 };
 
 export default function AboutPage() {

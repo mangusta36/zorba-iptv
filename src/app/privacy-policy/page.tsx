@@ -1,7 +1,11 @@
 import { PageHero } from "@/components/page-hero";
 import { Section } from "@/components/section";
 
-export const metadata = { title: "Privacy policy" };
+export const metadata = {
+  title: "Privacy policy",
+  alternates: { canonical: "/privacy-policy" },
+  openGraph: { url: "/privacy-policy" }
+};
 
 export default function PrivacyPolicyPage() {
   return (

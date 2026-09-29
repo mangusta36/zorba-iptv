@@ -8,13 +8,13 @@ import Link from "next/link";
 export const metadata = {
   title: "Streaming & IPTV Guides",
   description: "US-focused guides from Zorba IPTV for IPTV setup, streaming devices, player apps, troubleshooting, and sports viewing.",
-  ...(siteConfig.brand.domain ? { alternates: { canonical: "/blog" } } : {}),
+  alternates: { canonical: "/blog" },
   openGraph: {
     title: "Streaming & IPTV Guides",
     description: "Practical IPTV setup, device, player, troubleshooting, and sports viewing guides from Zorba TV.",
     type: "website",
     siteName: siteConfig.brand.formalName,
-    ...(siteConfig.brand.domain ? { url: `${siteConfig.brand.domain.replace(/\/$/, "")}/blog` } : {})
+    url: `${siteConfig.brand.domain.replace(/\/$/, "")}/blog`
   }
 };
 

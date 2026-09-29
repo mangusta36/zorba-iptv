@@ -5,7 +5,9 @@ import { resellerMessage, whatsappUrl } from "@/lib/whatsapp";
 
 export const metadata: Metadata = {
   title: "Zorba IPTV Reseller Enquiries",
-  description: "Ask about Zorba IPTV reseller access, package structures and account options for your business."
+  description: "Ask about Zorba IPTV reseller access, package structures and account options for your business.",
+  alternates: { canonical: "/reseller" },
+  openGraph: { url: "/reseller" }
 };
 
 export default function ResellerPage() {

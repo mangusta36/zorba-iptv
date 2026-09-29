@@ -3,7 +3,9 @@ import { siteConfig } from "@/config/site";
 
 export const metadata = {
   title: "Contact Zorba IPTV Support",
-  description: "Contact Zorba IPTV support for questions about plans, setup, trials or your Zorba TV account."
+  description: "Contact Zorba IPTV support for questions about plans, setup, trials or your Zorba TV account.",
+  alternates: { canonical: "/contact" },
+  openGraph: { url: "/contact" }
 };
 
 export default function ContactPage() {

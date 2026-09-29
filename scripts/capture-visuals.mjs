@@ -10,7 +10,7 @@ const viewports = [
 ];
 const output = 'visual-screenshots';
 await mkdir(output, { recursive: true });
-const sites = process.argv[2] === 'fresh' ? [['reference-fresh', 'https://www.zorba.network'], ['local-fresh', 'http://127.0.0.1:3000']] : process.argv[2]?.startsWith('after') ? [[`local-${process.argv[2]}`, 'http://127.0.0.1:3000']] : [['reference', 'https://www.zorba.network'], ['local-before', 'http://127.0.0.1:3000']];
+const sites = process.argv[2] === 'fresh' ? [['reference-fresh', 'https://www.zorbatv.us'], ['local-fresh', 'http://127.0.0.1:3000']] : process.argv[2]?.startsWith('after') ? [[`local-${process.argv[2]}`, 'http://127.0.0.1:3000']] : [['reference', 'https://www.zorbatv.us'], ['local-before', 'http://127.0.0.1:3000']];
 for (const [site, base] of sites) {
   for (const [name, width, height] of viewports) {
     const page = await browser.newPage({ viewport: { width, height }, deviceScaleFactor: 1, ignoreHTTPSErrors: true });

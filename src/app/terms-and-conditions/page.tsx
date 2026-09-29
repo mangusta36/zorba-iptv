@@ -1,7 +1,11 @@
 import { PageHero } from "@/components/page-hero";
 import { Section } from "@/components/section";
 
-export const metadata = { title: "Terms and conditions" };
+export const metadata = {
+  title: "Terms and conditions",
+  alternates: { canonical: "/terms-and-conditions" },
+  openGraph: { url: "/terms-and-conditions" }
+};
 
 export default function TermsPage() {
   return (

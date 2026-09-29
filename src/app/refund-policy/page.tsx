@@ -1,7 +1,11 @@
 import { PageHero } from "@/components/page-hero";
 import { Section } from "@/components/section";
 
-export const metadata = { title: "Refund policy" };
+export const metadata = {
+  title: "Refund policy",
+  alternates: { canonical: "/refund-policy" },
+  openGraph: { url: "/refund-policy" }
+};
 
 export default function RefundPolicyPage() {
   return (

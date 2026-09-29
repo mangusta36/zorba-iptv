@@ -6,7 +6,9 @@ import { faqs } from "@/config/site";
 
 export const metadata: Metadata = {
   title: "Zorba IPTV Plans and Pricing",
-  description: "Compare Zorba IPTV plans by duration and device count. Review Zorba TV pricing before continuing to checkout."
+  description: "Compare Zorba IPTV plans by duration and device count. Review Zorba TV pricing before continuing to checkout.",
+  alternates: { canonical: "/pricing" },
+  openGraph: { url: "/pricing" }
 };
 
 export default function PricingPage() {

@@ -4,7 +4,7 @@ import { mkdir } from 'node:fs/promises';
 const browser = await chromium.launch({ executablePath: '/usr/bin/chromium', headless: true, args: ['--no-sandbox'] });
 const paths = process.argv[2] === 'local' ? ['pricing', 'blog', 'faq', 'about', 'reseller', 'free-trial', 'contact', 'checkout'] : process.argv[2] === 'local-rest' ? ['checkout/success', 'checkout/cancel', 'privacy-policy', 'terms-and-conditions', 'refund-policy'] : process.argv[2] === 'reference-rest' ? ['contact', 'about', 'checkout', 'checkout/success', 'checkout/cancel', 'privacy-policy', 'terms-and-conditions', 'refund-policy', 'blog'] : process.argv[2] === 'reference-faq' ? ['faq'] : ['pricing', 'blog', 'faq', 'about', 'reseller', 'free-trial'];
 await mkdir('visual-screenshots/pages', { recursive: true });
-const sites = process.argv[2]?.startsWith('local') ? [['local', 'http://127.0.0.1:3000']] : [['reference', 'https://www.zorba.network']];
+const sites = process.argv[2]?.startsWith('local') ? [['local', 'http://127.0.0.1:3000']] : [['reference', 'https://www.zorbatv.us']];
 for (const [site, base] of sites) {
   for (const path of paths) {
     for (const [size, width, height] of [['desktop', 1440, 900], ['mobile', 390, 844]]) {

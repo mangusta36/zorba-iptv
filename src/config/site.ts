@@ -8,7 +8,7 @@ export const siteConfig = {
     secondaryName: "Zorba TV",
     compactNames: ["ZorbaTV", "ZorbaIPTV"],
     tagline: "Entertainment for every screen, on your terms.",
-    domain: process.env.NEXT_PUBLIC_SITE_URL || ""
+    domain: "https://www.zorbatv.us"
   },
   contact: {
     email: process.env.CONTACT_EMAIL || "",

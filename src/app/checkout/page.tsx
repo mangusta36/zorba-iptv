@@ -2,7 +2,11 @@ import { Suspense } from "react";
 import { CheckoutClient } from "@/components/checkout-client";
 import { Section } from "@/components/section";
 
-export const metadata = { title: "Checkout" };
+export const metadata = {
+  title: "Checkout",
+  alternates: { canonical: "/checkout" },
+  openGraph: { url: "/checkout" }
+};
 
 export default function CheckoutPage() {
   return (
