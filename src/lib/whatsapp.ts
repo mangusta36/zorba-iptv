@@ -4,6 +4,7 @@ import { formatCurrency } from "./utils";
 type PlanForMessage = {
   duration: string;
   price: number;
+  devices: number;
 };
 
 export function whatsappUrl(message: string) {
@@ -24,7 +25,8 @@ export function resellerMessage(context = "Zorba IPTV website") {
 
 export function planOrderMessage(plan: PlanForMessage, context = "Zorba IPTV website") {
   const source = context.startsWith("the ") ? context : `the ${context}`;
-  return `Hello, I came from ${source}. I want to order the ${plan.duration} plan for ${formatCurrency(plan.price)}.`;
+  const deviceLabel = plan.devices === 1 ? "device" : "devices";
+  return `Hello, I came from ${source}. I want to order the ${plan.duration} plan for ${plan.devices} ${deviceLabel}. The price is ${formatCurrency(plan.price)}.`;
 }
 
 export function planOrderUrl(plan: PlanForMessage, context = "Zorba IPTV website") {

@@ -1,5 +1,11 @@
 export type DurationKey = "1-month" | "3-months" | "6-months" | "12-months";
 export type DeviceCount = 1 | 2 | 3;
+export type PricingPlan = {
+  id: DurationKey;
+  duration: string;
+  price: number;
+  featured?: boolean;
+};
 
 export const siteConfig = {
   brand: {
@@ -53,33 +59,22 @@ export const pricingFeatures = [
   "Customer support options"
 ];
 
-export const pricingPlans: Record<
-  DeviceCount,
-  Array<{
-    id: DurationKey;
-    duration: string;
-    price: number;
-    featured?: boolean;
-  }>
-> = {
-  1: [
-    { id: "1-month", duration: "1 Month", price: 27 },
-    { id: "3-months", duration: "3 Months", price: 37 },
-    { id: "6-months", duration: "6 Months", price: 47, featured: true },
-    { id: "12-months", duration: "12 Months", price: 67 }
-  ],
-  2: [
-    { id: "1-month", duration: "1 Month", price: 27 },
-    { id: "3-months", duration: "3 Months", price: 37 },
-    { id: "6-months", duration: "6 Months", price: 47, featured: true },
-    { id: "12-months", duration: "12 Months", price: 67 }
-  ],
-  3: [
-    { id: "1-month", duration: "1 Month", price: 27 },
-    { id: "3-months", duration: "3 Months", price: 37 },
-    { id: "6-months", duration: "6 Months", price: 47, featured: true },
-    { id: "12-months", duration: "12 Months", price: 67 }
-  ]
+export const deviceCounts: DeviceCount[] = [1, 2, 3];
+
+export const pricingPlans: PricingPlan[] = [
+  { id: "1-month", duration: "1 Month", price: 27 },
+  { id: "3-months", duration: "3 Months", price: 37 },
+  { id: "6-months", duration: "6 Months", price: 47, featured: true },
+  { id: "12-months", duration: "12 Months", price: 67 }
+];
+
+export const manualDevicePricing: Partial<Record<DeviceCount, Record<DurationKey, number>>> = {
+  3: {
+    "1-month": 70,
+    "3-months": 85,
+    "6-months": 110,
+    "12-months": 149
+  }
 };
 
 export const faqs = [
