@@ -16,7 +16,7 @@ export default function FreeTrialPage() {
       <h2 className="section-title">Request your trial via WhatsApp.</h2>
       <p className="page-lead mt-3">Send a quick message and Zorba IPTV support can help you get started.</p>
       <div className="mt-6">
-        <Button href={whatsappUrl(trialMessage("Zorba IPTV Free Trial page"))}>Request Trial on WhatsApp</Button>
+        <Button href={whatsappUrl(trialMessage())}>Request Trial on WhatsApp</Button>
       </div>
     </div>
   </section>;

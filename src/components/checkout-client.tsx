@@ -31,7 +31,7 @@ export function CheckoutClient() {
       <div className="surface rounded-card p-6">
         <h1 className="page-title">Review your plan.</h1>
         <p className="mt-3 max-w-lg leading-7 text-mist">Your selection is ready to review. Online payment is currently unavailable, so the next step is to confirm your order with support on WhatsApp.</p>
-        <Button className="mt-6 w-full" href={planOrderUrl(plan, "the Zorba IPTV website checkout page")}>Order via WhatsApp</Button>
+        <Button className="mt-6 w-full" href={planOrderUrl(plan)}>Order via WhatsApp</Button>
         <Button className="mt-3 w-full" href="/pricing" variant="ghost">Change plan</Button>
       </div>
       <aside className="surface rounded-card p-6">

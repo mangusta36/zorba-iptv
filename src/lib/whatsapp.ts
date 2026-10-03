@@ -11,32 +11,31 @@ export function whatsappUrl(message: string) {
   return `${siteConfig.contact.whatsappUrl}?text=${encodeURIComponent(message)}`;
 }
 
-export function supportMessage(context = "Zorba IPTV website") {
-  return `Hello, I came from the ${context}. I need help with my Zorba IPTV service.`;
+export function supportMessage() {
+  return "Hi Zorba IPTV, I need help with my subscription.";
 }
 
-export function trialMessage(context = "Zorba IPTV website") {
-  return `Hello, I came from the ${context}. I would like to request a trial. Can you help me get started?`;
+export function trialMessage() {
+  return "Hi Zorba IPTV, I'd like to request a free trial.";
 }
 
-export function resellerMessage(context = "Zorba IPTV website") {
-  return `Hello, I came from the ${context}. I'm interested in reseller options and would like more information.`;
+export function resellerMessage() {
+  return "Hi Zorba IPTV, I'm interested in becoming a reseller.";
 }
 
-export function planOrderMessage(plan: PlanForMessage, context = "Zorba IPTV website") {
-  const source = context.startsWith("the ") ? context : `the ${context}`;
+export function planOrderMessage(plan: PlanForMessage) {
   const deviceLabel = plan.devices === 1 ? "device" : "devices";
-  return `Hello, I came from ${source}. I want to order the ${plan.duration} plan for ${plan.devices} ${deviceLabel}. The price is ${formatCurrency(plan.price)}.`;
+  return `Hi Zorba IPTV, I'd like the ${plan.duration} plan for ${plan.devices} ${deviceLabel} (${formatCurrency(plan.price)}).`;
 }
 
-export function planOrderUrl(plan: PlanForMessage, context = "Zorba IPTV website") {
-  return whatsappUrl(planOrderMessage(plan, context));
+export function planOrderUrl(plan: PlanForMessage) {
+  return whatsappUrl(planOrderMessage(plan));
 }
 
 export const whatsappMessages = {
-  sales: "Hello, I came from the Zorba IPTV website. I'm interested in a Zorba IPTV subscription and would like help choosing a plan.",
+  sales: "Hi Zorba IPTV, I'd like help choosing a plan.",
   trial: trialMessage(),
   support: supportMessage(),
-  supportCheckout: "Hello, I came from the Zorba IPTV website checkout page. I need help with my Zorba IPTV order.",
+  supportCheckout: "Hi Zorba IPTV, I need help with my subscription.",
   reseller: resellerMessage()
 };

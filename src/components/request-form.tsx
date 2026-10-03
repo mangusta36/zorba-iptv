@@ -39,9 +39,9 @@ export function RequestForm({ kind }: { kind: "trial" | "contact" | "reseller" }
 
     const targetMessage =
       kind === "trial"
-        ? trialMessage("Zorba IPTV Free Trial page")
+        ? trialMessage()
         : kind === "reseller"
-          ? resellerMessage("Zorba IPTV Reseller page")
+          ? resellerMessage()
           : whatsappMessages.support;
 
     window.open(whatsappUrl(targetMessage), "_blank", "noopener,noreferrer");

@@ -39,7 +39,7 @@ export function PricingSelector() {
         <p className="plan-price">{formatCurrency(plan.price)}</p>
         <p className="plan-caption">{planCaption(plan)}</p>
         <ul>{pricingFeatures.slice(0, 4).map((feature) => <li key={feature}><Check aria-hidden="true" />{feature}</li>)}</ul>
-        <Button href={planOrderUrl(plan, "Zorba IPTV website pricing section")}>Choose plan <span aria-hidden="true">↗</span></Button>
+        <Button href={planOrderUrl(plan)}>Choose plan <span aria-hidden="true">↗</span></Button>
       </article>)}
     </div>
     <div className="trial-callout"><div><strong>Prefer to try it first?</strong><p>Request a trial before choosing a subscription. Availability is subject to approval.</p></div><Button href={whatsappUrl(whatsappMessages.trial)} variant="ghost">Request a trial <span aria-hidden="true">↗</span></Button></div>
