@@ -3694,6 +3694,17 @@
           },
           " once your device path is clear."
         ]
+      },
+      {
+        "type": "rich",
+        "parts": [
+          "If your living-room device is Apple TV rather than Samsung, LG, Android TV, or Google TV, use the dedicated ",
+          {
+            "label": "best IPTV player for Apple TV guide",
+            "href": "/blog/best-iptv-player-for-apple-tv-2026"
+          },
+          " instead of this Smart TV comparison."
+        ]
       }
     ],
     "sections": [
@@ -4172,6 +4183,17 @@
           },
           " guides."
         ]
+      },
+      {
+        "type": "rich",
+        "parts": [
+          "If video playback is fine but the TV guide is blank, stale, or shifted, troubleshoot the guide layer with the ",
+          {
+            "label": "IPTV EPG not working guide",
+            "href": "/blog/iptv-epg-not-working-fix-tv-guide-2026"
+          },
+          " instead of changing network settings first."
+        ]
       }
     ],
     "sections": [
@@ -4649,5 +4671,634 @@
     "verifiedDate": "September 27, 2026",
     "author": "Zorba TV Editorial Team",
     "readingTime": 16
+  },
+  {
+    "slug": "best-iptv-player-for-apple-tv-2026",
+    "title": "Best IPTV Player for Apple TV in 2026: tvOS Apps Compared",
+    "seoTitle": "Best IPTV Player for Apple TV in 2026",
+    "description": "Best IPTV player for Apple TV options in 2026, compared by tvOS support, M3U, Xtream Codes, EPG tools, and setup fit.",
+    "ogTitle": "Best IPTV Player for Apple TV in 2026",
+    "ogDescription": "A current Apple TV IPTV player comparison for users with authorized M3U or Xtream Codes access.",
+    "category": "IPTV players",
+    "primaryKeyword": "best IPTV player for Apple TV",
+    "secondaryIntent": "Apple TV IPTV player comparison, tvOS setup, M3U and Xtream Codes compatibility",
+    "intro": [
+      "The best IPTV player for Apple TV in 2026 is the one that matches your authorized login format, guide needs, Apple TV model, and tolerance for advanced settings. Apple TV does not turn an IPTV player into a channel provider. A tvOS player is only the playback app; you still need a legitimate playlist, Xtream Codes login, or media source that you are allowed to use.",
+      "For most US Apple TV users, the shortlist starts with UHF, IPTVX, Snappier IPTV, and iPlayTV because current App Store listings verify Apple TV support and core IPTV-player features. UHF is the easiest all-around pick for a modern Apple-style experience, IPTVX is strong for people who want a polished library and Apple ecosystem sync, Snappier IPTV is the power-user option, and iPlayTV remains a simple Apple TV-focused choice.",
+      {
+        "type": "rich",
+        "parts": [
+          "This guide deliberately avoids the Firestick search intent already covered in the ",
+          {
+            "label": "best IPTV player for Firestick guide",
+            "href": "/blog/best-iptv-player-for-firestick-2026"
+          },
+          ". If your Apple TV login is Xtream Codes, also keep the ",
+          {
+            "label": "Xtream Codes IPTV setup guide",
+            "href": "/blog/xtream-codes-iptv-setup-guide"
+          },
+          " open for format background."
+        ]
+      }
+    ],
+    "images": {
+      "hero": {
+        "src": "/images/blog/apple-tv-iptv-player-living-room-hero.webp",
+        "width": 1200,
+        "height": 630,
+        "alt": "Modern living-room television setup used for Apple TV streaming"
+      },
+      "inline": [
+        {
+          "src": "/images/blog/sections/apple-tv-good-player-checklist.webp",
+          "width": 800,
+          "height": 500,
+          "alt": "Checklist showing tvOS player qualities including remote usability, M3U or Xtream Codes support, EPG, and favorites",
+          "caption": "A good Apple TV IPTV player should match the login format, guide needs, and living-room controls."
+        },
+        {
+          "src": "/images/blog/sections/apple-tv-player-shortlist.webp",
+          "width": 800,
+          "height": 500,
+          "alt": "Shortlist diagram grouping UHF, IPTVX, Snappier IPTV, and iPlayTV as verified Apple TV IPTV players",
+          "caption": "The Apple TV shortlist is based on currently verified tvOS/App Store availability and relevant player features."
+        },
+        {
+          "src": "/images/blog/sections/apple-tv-comparison-table.webp",
+          "width": 800,
+          "height": 500,
+          "alt": "Comparison diagram highlighting verified fields for tvOS availability, M3U, Xtream Codes, EPG, and best use case",
+          "caption": "The comparison table uses verified fields instead of guessed pricing, ratings, or unsupported feature claims."
+        },
+        {
+          "src": "/images/blog/sections/apple-tv-decision-path.webp",
+          "width": 800,
+          "height": 500,
+          "alt": "Decision path for choosing an Apple TV IPTV player by Xtream Codes, M3U, EPG, and Apple device needs",
+          "caption": "Choose the player by the source format and viewing workflow you actually use."
+        },
+        {
+          "src": "/images/blog/sections/apple-tv-setup-workflow.webp",
+          "width": 800,
+          "height": 500,
+          "alt": "Apple TV IPTV setup workflow from App Store installation to authorized login and guide organization",
+          "caption": "A clean first setup loads one authorized source before adding sync, favorites, and advanced settings."
+        },
+        {
+          "src": "/images/blog/sections/apple-tv-xtream-vs-m3u.webp",
+          "width": 800,
+          "height": 500,
+          "alt": "Diagram contrasting Xtream Codes credentials with an M3U playlist URL and separate EPG data",
+          "caption": "Xtream Codes and M3U are source formats; neither format supplies channels by itself."
+        },
+        {
+          "src": "/images/blog/sections/apple-tv-setup-problems.webp",
+          "width": 800,
+          "height": 500,
+          "alt": "Troubleshooting diagram for Apple TV IPTV login, EPG, channel, and playlist navigation problems",
+          "caption": "Most setup issues are easier to solve when login, guide, playback, and playlist layers are handled separately."
+        }
+      ]
+    },
+    "sections": [
+      {
+        "id": "what-makes-good",
+        "title": "What Makes a Good IPTV Player for Apple TV?",
+        "blocks": [
+          "A good Apple TV IPTV player starts with native tvOS support. Apple TV is a couch device controlled by the Siri Remote, so a player that feels acceptable on a phone may still feel clumsy from ten feet away. Look for large channel rows, quick search, predictable back-button behavior, favorites that are easy to reach, and guide navigation that does not require constant text entry.",
+          "The second requirement is login compatibility. Many users receive either an M3U or M3U8 playlist URL, an Xtream Codes-style server URL plus username and password, or a service-specific portal. Those formats are not interchangeable in every app. If your provider gives Xtream Codes credentials, choose a player whose current App Store listing or developer documentation explicitly supports Xtream Codes. If your source provides only M3U, confirm the app can import a remote M3U URL and, ideally, an external EPG URL.",
+          "EPG support matters if you watch live channels like traditional TV. A player can load channels without loading a guide because playlist data and EPG/XMLTV data are separate layers. For a living-room setup, the best IPTV app for Apple TV should make the guide readable, refreshable, and easy to search. Favorites and category management are also important because large playlists can become slow to browse if every channel group is left visible.",
+          "Finally, think about performance and ecosystem behavior. Apple TV 4K users may care about HDR, frame-rate matching, multiple playlists, iCloud sync, or multi-screen viewing. Older Apple TV HD users should be more conservative and check the current App Store compatibility section before buying anything. Features can also depend on the source: catch-up, VOD, logos, subtitles, and EPG depth only work when the authorized source provides compatible data."
+        ]
+      },
+      {
+        "id": "best-players",
+        "title": "Best IPTV Player for Apple TV: 2026 Shortlist",
+        "blocks": [
+          "UHF is the best first app to evaluate if you want a clean tvOS player without turning setup into a weekend project. The current App Store listing identifies UHF as an IPTV and media-center app for Apple TV, iPad, and iPhone, and describes support for M3U8, Xtream, Plex, Jellyfin, and Emby playlists. It also highlights a couch-friendly EPG experience. That makes UHF a strong fit for Apple TV users who want a player that feels native and modern while still supporting the two common IPTV login families.",
+          "Choose UHF if you value interface clarity, Apple TV remote usability, search, and a guide that is designed for the big screen. The limitation is the same limitation that applies to every app in this category: UHF is a player, not a content provider. It cannot fix a weak or unauthorized source, and provider-dependent features such as catch-up, complete logos, and guide depth only appear when your source supplies them.",
+          "IPTVX is a polished Apple ecosystem option. Its App Store listing verifies Apple TV availability and lists Xtream API, M3U, M3U8, Plex, and SMB support, along with iCloud sync, TV Guide, catch-up, favorites, multiple playlists, AirPlay, and arbitrary EPG URL support. That combination makes IPTVX attractive for users who want an Apple-like media library across more than one Apple device.",
+          "Choose IPTVX if you want a more library-oriented experience with sync and a broad feature set. It is especially relevant if you use Apple TV with iPhone or iPad and want the same player ecosystem across devices. The tradeoff is that a richer interface can feel heavier than a simple channel-first player, and some features are meaningful only when your source has the matching metadata.",
+          "Snappier IPTV is the power-user pick. The current App Store listing verifies Apple TV support and describes Xtream Codes login, M3U and Xtream M3U import, external EPG URL support, multi-screen viewing, multiple playlists, profiles, Trakt integration, scheduled recordings, and sync across Apple devices. The listing also states that Snappier does not provide playlists, channels, movies, or TV shows.",
+          "Choose Snappier IPTV if you care about advanced controls, multiple playlists, profiles, custom categories, multi-screen viewing, or deeper metadata tools. It is less ideal for someone who wants the fewest possible settings. Advanced features can also create more places to misconfigure a source, so start with one playlist and one EPG source before adding complexity.",
+          "iPlayTV is the straightforward Apple TV choice. Its App Store listing describes multi-playlist support, remote playlists, Xtream Codes, file upload, favorites, full EPG support, EPG URLs with gzip/tar content, time shift, frame-rate matching, multiple audio and subtitle tracks, AirPlay 2, and Xtream Codes support with catch-up. It is a good candidate for users who want a focused IPTV player rather than a full media-center style app.",
+          "Choose iPlayTV if your priority is a familiar Apple TV IPTV player with M3U, EPG, favorites, and Xtream Codes support. It may be the cleanest decision for a single Apple TV household that does not need power-user tools such as profiles or multi-screen viewing. As always, check the current App Store listing before purchase because pricing, device requirements, and feature wording can change."
+        ]
+      },
+      {
+        "id": "comparison",
+        "title": "Apple TV IPTV Player Comparison",
+        "blocks": [
+          {
+            "type": "table",
+            "caption": "Verified Apple TV IPTV player comparison",
+            "headers": [
+              "Player",
+              "tvOS",
+              "M3U",
+              "Xtream Codes",
+              "EPG",
+              "Best For"
+            ],
+            "rows": [
+              [
+                "UHF",
+                "Apple TV listed",
+                "M3U8 listed",
+                "Xtream listed",
+                "EPG listed",
+                "Modern all-around Apple TV setup"
+              ],
+              [
+                "IPTVX",
+                "Apple TV listed",
+                "M3U/M3U8 listed",
+                "Xtream API listed",
+                "TV Guide and EPG URL listed",
+                "Polished Apple ecosystem experience"
+              ],
+              [
+                "Snappier IPTV",
+                "Apple TV listed",
+                "M3U and Xtream M3U listed",
+                "Xtream Codes login listed",
+                "External EPG URL listed",
+                "Power users and multiple playlists"
+              ],
+              [
+                "iPlayTV",
+                "Apple TV listed",
+                "Remote playlists listed",
+                "Xtream Codes listed",
+                "Full EPG and EPG URL listed",
+                "Simple Apple TV-focused IPTV"
+              ],
+              [
+                "TiviMate",
+                "No official native tvOS app verified",
+                "Android TV app supports IPTV sources",
+                "Android TV app supports IPTV sources",
+                "Android TV app supports guide features",
+                "Use on Android TV or Fire TV, not Apple TV"
+              ]
+            ]
+          },
+          "The TiviMate row is included because many people search for it after using Fire TV or Android TV. TiviMate's official site describes it as a media player intended for Android TV devices and says it does not provide content. I did not find a current official native Apple TV/tvOS TiviMate listing from the same official source, so Apple TV users should not plan around TiviMate unless that changes and can be verified from an official listing."
+        ]
+      },
+      {
+        "id": "how-to-choose",
+        "title": "How to Choose the Right IPTV Player for Apple TV",
+        "blocks": [
+          "If you have Xtream Codes credentials, begin with UHF, IPTVX, Snappier IPTV, or iPlayTV because all four current listings describe some form of Xtream support. Your first setup test should be boring: enter the server URL, username, and password exactly as provided by your authorized source, let the player load live channels, then check whether guide data appears. Do not change EPG offsets, custom URLs, or mapping until the basic account loads.",
+          "If you have an M3U playlist, choose a player that clearly supports remote M3U or M3U8 import. Then ask whether your source also gives a separate XMLTV or EPG URL. Some playlists include an EPG reference, while others require a separate guide field inside the player. If the guide is blank after channels load, the issue may be guide configuration rather than the player itself.",
+          "If you value Apple-style design, prioritize UHF or IPTVX first. If you want advanced organization, profiles, multi-screen viewing, or recording-related features where supported, test Snappier IPTV. If you want a focused app with a long Apple TV IPTV history and fewer distractions, evaluate iPlayTV.",
+          "If you use multiple Apple devices, look carefully at sync claims. IPTVX and Snappier both describe cross-device sync features in their listings, while UHF and iPlayTV also exist across Apple platforms according to current App Store availability. Sync can be valuable for favorites and watch progress, but it is not a substitute for source quality or legal content rights.",
+          "If you mainly watch live channels, put the EPG and remote-control experience above movie-library features. A beautiful poster wall is nice, but live TV users spend more time jumping through the guide, returning to the previous channel, searching for a game, and hiding noisy channel groups. If the guide is hard to read from the couch, the app will feel worse every night even if its feature list is impressive.",
+          "If your household includes less technical viewers, choose the app that is easiest to recover when something changes. Favorites, clear categories, and an obvious refresh action matter more than obscure advanced toggles. The best IPTV player for Apple TV is often the one your family can use without asking which playlist, profile, or EPG source is active.",
+          "If you are replacing a Firestick or Android TV setup, do not assume feature names are identical. Apple TV apps may use different player engines, sync systems, purchase models, and remote behaviors. Recreate the setup from the source credentials rather than trying to copy every Android setting one-for-one.",
+          {
+            "type": "callout",
+            "title": "Legal setup note",
+            "text": "Use IPTV players only with authorized playlists, accounts, or media sources. A player app should not be treated as proof that a channel source is licensed.",
+            "variant": "warning"
+          }
+        ]
+      },
+      {
+        "id": "setup",
+        "title": "How to Set Up an IPTV Player on Apple TV",
+        "blocks": [
+          "Open the Apple TV App Store and search for the player by its exact name. Confirm the listing shows Apple TV compatibility, review the developer name, and read the current feature description before installing. App names in the IPTV category can be confusing, and similarly named apps may not come from the developer you expect.",
+          "Install the chosen player, open it, and select the login method that matches your authorized source. For Xtream Codes, that usually means a server or portal URL, username, and password. For M3U, that usually means a playlist URL, and sometimes a separate EPG/XMLTV URL. Type carefully, because one missing character can make a valid account look broken.",
+          "After the first load, check live channels, then guide data, then favorites. Do not judge the app solely by the first channel group. Hide unused categories, create favorites, and set guide refresh behavior only after the source loads normally. If playback works but the guide is blank, use the EPG troubleshooting article rather than reinstalling every player on the App Store.",
+          "A clean first-run checklist helps. Load one source, open a common live channel, open the EPG, favorite five channels, quit the app, reopen it, and confirm the same favorites and guide data are still there. Then test search, subtitles or audio tracks if you use them, and one VOD item if your authorized source includes VOD. This is faster than browsing hundreds of channels and only later discovering that favorites, guide refresh, or source switching does not behave the way you expected.",
+          "If the app offers cloud sync, enable it only after the basic setup is stable. Syncing a broken playlist or wrong EPG mapping can spread the problem to other Apple devices. Once the Apple TV is working, then add iPhone or iPad if the app supports them and confirm that favorites and watch progress behave as described by the developer.",
+          {
+            "type": "rich",
+            "parts": [
+              "For a broader streaming setup, Zorba IPTV customers can start from the ",
+              {
+                "label": "Zorba IPTV homepage",
+                "href": "/"
+              },
+              ", then use this Apple TV guide only to choose a compatible player."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "xtream-vs-m3u",
+        "title": "Xtream Codes vs M3U on Apple TV",
+        "blocks": [
+          "Xtream Codes and M3U are login or playlist formats, not channels by themselves. Xtream Codes-style login usually separates the server URL, username, and password. A compatible player can often use that structure to organize live TV, movies, series, catch-up, and EPG data more cleanly when the source supports those categories.",
+          "M3U is a playlist format. In IPTV use, it commonly lists channels and stream URLs, sometimes with attributes such as channel names, logos, groups, and tvg-id values for guide matching. M3U can be simple and portable, but it may require more manual EPG configuration if the guide URL is separate or if channel IDs do not match the XMLTV file.",
+          "Neither format guarantees quality, legality, or guide accuracy. A great tvOS player cannot create missing EPG data, repair unauthorized streams, or make a source support catch-up if the source does not provide it. Pick the player based on the format you actually have, then troubleshoot the playlist and EPG layers separately.",
+          "For Apple TV users, Xtream Codes is often more convenient when the source organizes live TV, movies, series, and EPG under one account. M3U is useful when you want portability or when your authorized source only distributes a playlist URL. If you have both options, test Xtream first in a player that supports it, then keep the M3U URL as a fallback for apps that do not handle your account structure well."
+        ]
+      },
+      {
+        "id": "problems",
+        "title": "Common Apple TV IPTV Setup Problems",
+        "blocks": [
+          "If the app rejects your login, first confirm that you chose the correct login type. An Xtream Codes username and password will not work in a plain M3U-only field unless the app specifically supports converting or importing that format. Check capitalization, hidden spaces, expired accounts, and whether the server URL includes the required protocol.",
+          "If channels load but the EPG is missing, the player may be fine. Check whether the source includes guide data, whether the EPG URL is reachable, and whether the playlist channel IDs match the XMLTV channel IDs. The dedicated IPTV EPG not working guide covers that layer in more detail.",
+          "If only some channels fail, avoid changing global settings immediately. Partial failures often point to source coverage, individual stream availability, regional channel variants, or guide mapping. A global time offset might fix one channel while breaking many others.",
+          "If the Apple TV remote feels slow inside one app but normal elsewhere, reduce visible categories, remove duplicate playlists, or test a smaller source if your app supports it. Huge channel lists and heavy guide data can make any living-room interface feel crowded. The fix is often organization, not a different HDMI cable or a router reboot.",
+          "If an app disappears from search or a listing changes, do not sideload random files or install lookalike apps from unknown sources. Apple TV users should stick with the App Store and current developer listings. IPTV app names are easy to imitate, so verify the developer, platform support, and content disclaimer before entering account details.",
+          {
+            "type": "rich",
+            "parts": [
+              "If channels freeze or stutter after they begin playing, switch from app selection to network troubleshooting and use the ",
+              {
+                "label": "IPTV buffering and freezing guide",
+                "href": "/blog/how-to-fix-iptv-buffering-freezing"
+              },
+              "."
+            ]
+          },
+          {
+            "type": "rich",
+            "parts": [
+              "The takeaway: choose an Apple TV IPTV player by verified tvOS support, your authorized login format, and the guide features you will use every day. For a broader account and device starting point, visit ",
+              {
+                "label": "Zorba IPTV",
+                "href": "/"
+              },
+              " and then return to this checklist before installing a player."
+            ]
+          }
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "question": "What is the best IPTV player for Apple TV?",
+        "answer": "For most users, UHF, IPTVX, Snappier IPTV, and iPlayTV are the strongest verified Apple TV candidates in 2026. The best choice depends on whether you use Xtream Codes or M3U, whether you need EPG tools, and whether you prefer simplicity or advanced controls."
+      },
+      {
+        "question": "Can Apple TV use Xtream Codes?",
+        "answer": "Yes, several current Apple TV IPTV players list Xtream Codes or Xtream API support, including UHF, IPTVX, Snappier IPTV, and iPlayTV. Always verify the current App Store listing before installing."
+      },
+      {
+        "question": "Can I use an M3U playlist on Apple TV?",
+        "answer": "Yes, many tvOS IPTV players support M3U or M3U8 playlists. You may also need a separate EPG/XMLTV URL if you want a live TV guide."
+      },
+      {
+        "question": "Is TiviMate available on Apple TV?",
+        "answer": "I did not verify an official native TiviMate Apple TV/tvOS app from TiviMate's official source. TiviMate is described by its official site as intended for Android TV devices."
+      },
+      {
+        "question": "Do IPTV players include channels?",
+        "answer": "No. IPTV players are playback apps. They do not provide channels, subscriptions, or content rights by themselves."
+      }
+    ],
+    "sources": [
+      {
+        "label": "UHF App Store listing",
+        "url": "https://apps.apple.com/us/app/uhf-love-your-iptv/id6443751726?platform=tv"
+      },
+      {
+        "label": "IPTVX App Store listing",
+        "url": "https://apps.apple.com/us/app/iptvx/id1451470024?platform=appleTV"
+      },
+      {
+        "label": "Snappier IPTV App Store listing",
+        "url": "https://apps.apple.com/us/app/snappier-iptv/id1579702567?platform=tv"
+      },
+      {
+        "label": "iPlayTV App Store listing",
+        "url": "https://apps.apple.com/us/app/iplaytv-iptv-m3u-player/id1072226801"
+      },
+      {
+        "label": "TiviMate official device page",
+        "url": "https://tivimate.com/dashboard/devices"
+      }
+    ],
+    "related": [
+      "xtream-codes-iptv-setup-guide",
+      "best-iptv-apps-smart-tv-2026",
+      "how-to-fix-iptv-buffering-freezing",
+      "best-iptv-player-for-firestick-2026"
+    ],
+    "publishedAt": "2026-10-06",
+    "modifiedAt": "2026-10-06",
+    "verifiedDate": "October 6, 2026",
+    "author": "Zorba TV Editorial Team",
+    "readingTime": 14
+  },
+  {
+    "slug": "iptv-epg-not-working-fix-tv-guide-2026",
+    "title": "IPTV EPG Not Working? Fix a Blank or Wrong TV Guide (2026)",
+    "seoTitle": "IPTV EPG Not Working? Fix Blank or Wrong Guide",
+    "description": "IPTV EPG not working? Fix blank, stale, wrong-time, or mismatched TV guide data with XMLTV, refresh, and tvg-id checks.",
+    "ogTitle": "IPTV EPG Not Working? Fix the TV Guide",
+    "ogDescription": "Troubleshoot blank, missing, stale, or wrong-time IPTV guide data without confusing EPG problems with stream playback problems.",
+    "category": "IPTV troubleshooting",
+    "primaryKeyword": "IPTV EPG not working",
+    "secondaryIntent": "IPTV guide blank, XMLTV not working, tvg-id mapping, EPG wrong time",
+    "intro": [
+      "If channels play but your IPTV EPG is not working, the problem is usually in the guide layer rather than the video stream itself. The playlist or login tells the player what channels exist. The EPG or XMLTV source tells it what programs are scheduled. Mapping connects those two layers. Any one of those pieces can fail while the others still look normal.",
+      "Start with the symptom. A blank guide everywhere points toward the EPG source, account entitlement, or refresh process. Guide data on some channels but not others points toward coverage or channel mapping. Correct shows at the wrong time points toward device time zone, daylight-saving handling, or an EPG offset. Old listings point toward cache or failed refresh.",
+      {
+        "type": "rich",
+        "parts": [
+          "This article complements the ",
+          {
+            "label": "IPTV buffering guide",
+            "href": "/blog/how-to-fix-iptv-buffering-freezing"
+          },
+          " by focusing on guide data, not playback lag. If video itself freezes, use that network article first."
+        ]
+      }
+    ],
+    "images": {
+      "hero": {
+        "src": "/images/blog/iptv-epg-tv-guide-remote-hero.webp",
+        "width": 1200,
+        "height": 630,
+        "alt": "Person using a TV remote while navigating a streaming television interface"
+      },
+      "inline": [
+        {
+          "src": "/images/blog/sections/epg-layers-explained.webp",
+          "width": 800,
+          "height": 500,
+          "alt": "Diagram showing playlist or login, XMLTV EPG data, and channel mapping as separate guide layers",
+          "caption": "EPG failures make more sense when channels, guide data, and mapping are treated as separate layers."
+        },
+        {
+          "src": "/images/blog/sections/epg-symptom-diagnosis.webp",
+          "width": 800,
+          "height": 500,
+          "alt": "Symptom diagnosis chart for blank guide, partial guide, wrong time, and stale IPTV listings",
+          "caption": "Start with the visible symptom before changing player settings."
+        },
+        {
+          "src": "/images/blog/sections/epg-source-url-check.webp",
+          "width": 800,
+          "height": 500,
+          "alt": "EPG source check diagram listing exact XMLTV URL, credentials, guide data, and authorized source requirements",
+          "caption": "A valid EPG source should return guide data, not an expired token, sign-in page, or unrelated error."
+        },
+        {
+          "src": "/images/blog/sections/epg-refresh-order.webp",
+          "width": 800,
+          "height": 500,
+          "alt": "Refresh order diagram showing playlist update before EPG update after source changes",
+          "caption": "When the playlist changes, update the channel layer before refreshing guide data."
+        },
+        {
+          "src": "/images/blog/sections/epg-timezone-offset.webp",
+          "width": 800,
+          "height": 500,
+          "alt": "Clock diagram emphasizing device time zone, daylight saving, and careful EPG offset use",
+          "caption": "Wrong-time guides should be checked against device time before applying global offsets."
+        },
+        {
+          "src": "/images/blog/sections/epg-tvg-id-mapping.webp",
+          "width": 800,
+          "height": 500,
+          "alt": "Mapping diagram matching M3U tvg-id with XMLTV channel id and programme channel attributes",
+          "caption": "Matching identifiers are the bridge between playable channels and programme listings."
+        },
+        {
+          "src": "/images/blog/sections/epg-cache-reset.webp",
+          "width": 800,
+          "height": 500,
+          "alt": "Cache reset checklist warning to prefer guide-specific reset and backup account settings first",
+          "caption": "Clear guide data carefully so account settings, favorites, and manual mappings are not lost unnecessarily."
+        },
+        {
+          "src": "/images/blog/sections/epg-source-or-app.webp",
+          "width": 800,
+          "height": 500,
+          "alt": "Decision tree separating channel failure, source-specific EPG failure, partial mapping, and exact-hour shifts",
+          "caption": "The same symptom pattern helps identify whether the source, player, mapping, or time settings are responsible."
+        },
+        {
+          "src": "/images/blog/sections/epg-popular-players.webp",
+          "width": 800,
+          "height": 500,
+          "alt": "Diagram noting that TiviMate, Smarters-style apps, and Apple TV players use the same EPG logic with different menus",
+          "caption": "Menus differ by player, but the EPG layers stay broadly the same."
+        },
+        {
+          "src": "/images/blog/sections/epg-prevention-checklist.webp",
+          "width": 800,
+          "height": 500,
+          "alt": "Prevention checklist for automatic time, backups, reliable guide sources, and testing after playlist changes",
+          "caption": "Prevent repeat guide problems by preserving known-good settings and testing after source changes."
+        }
+      ]
+    },
+    "sections": [
+      {
+        "id": "why",
+        "title": "Why Is My IPTV EPG Not Working?",
+        "blocks": [
+          "An IPTV setup has separate layers. The channel layer comes from an M3U playlist, Xtream Codes account, portal, or similar authorized source. The guide layer often comes from XMLTV data, either bundled by the source or entered as a separate EPG URL. The mapping layer tells the player which guide channel belongs to which playable channel.",
+          "That separation explains the most confusing EPG failures. A channel can play perfectly while showing No Information because the stream URL works but the guide entry is missing. Another channel can show a program title that belongs to a different regional feed because the app mapped the playable channel to the wrong XMLTV channel. A third channel can show the right program several hours early or late because timestamps, device time, or offset settings disagree.",
+          "XMLTV data is structured around channel IDs and programme entries. The XMLTV DTD shows channel elements with id attributes and programme entries with start, stop, and channel attributes. In practical IPTV use, the playlist's tvg-id value often needs to match the XMLTV channel id or a player-specific mapping rule. When those identifiers do not line up, the player may have no reliable way to attach listings to channels."
+        ]
+      },
+      {
+        "id": "diagnose",
+        "title": "Diagnose the EPG Problem Before Changing Settings",
+        "blocks": [
+          "Do not start by changing every setting. First identify the pattern. A global blank guide, a partial guide, wrong programs, wrong time, and stale listings are different failures. Treating them the same way can make the setup worse.",
+          {
+            "type": "table",
+            "caption": "IPTV EPG symptom map",
+            "headers": [
+              "Symptom",
+              "Likely Area to Check",
+              "First Move"
+            ],
+            "rows": [
+              [
+                "Blank guide everywhere",
+                "EPG source, account, refresh",
+                "Verify the EPG URL or source entitlement"
+              ],
+              [
+                "Some channels have guide data",
+                "Coverage or mapping",
+                "Compare channel IDs and regional variants"
+              ],
+              [
+                "Wrong programs",
+                "Mapping or assigned guide channel",
+                "Check tvg-id and XMLTV channel id"
+              ],
+              [
+                "Correct programs at wrong times",
+                "Time zone, daylight saving, offset",
+                "Check device time before applying offset"
+              ],
+              [
+                "Old listings",
+                "Refresh or cached data",
+                "Reload EPG and clear stale guide cache if needed"
+              ]
+            ]
+          },
+          "Write down one example channel before making changes: the channel name, what the guide shows, what should be showing, and whether playback works. That small note keeps troubleshooting grounded and helps you avoid fixing one channel while breaking a dozen others."
+        ]
+      },
+      {
+        "id": "verify-source",
+        "title": "Fix #1: Verify the EPG Source or XMLTV URL",
+        "blocks": [
+          "If your player uses a separate EPG URL, verify that the URL exists, is complete, and belongs to an authorized guide source. Copy-paste problems are common: missing characters, accidental spaces, smart quotes, expired tokens, and old credentials can all turn a valid guide into a blank one. Never share real playlist or EPG credentials in public troubleshooting posts.",
+          "A working EPG URL should return guide data, not an account login page, a generic error page, or a blocked request. Some providers include EPG automatically through an Xtream Codes login, while others require a separate XMLTV URL. If you are not sure which model your source uses, ask the source for the supported player format rather than guessing.",
+          "If the EPG source is unreachable in every player, the problem is probably not your Apple TV, Firestick, or Smart TV. It may be an expired account, a changed guide endpoint, a provider outage, or a source that does not include guide data for your package.",
+          "Also check whether the guide URL is tied to a specific playlist or account. Some sources rotate tokens, limit access by account status, or use separate guide endpoints for different regions. A URL that worked last month can fail after a billing change, password reset, or provider migration. Treat old setup screenshots as clues, not as permanent documentation.",
+          "When you ask support for help, describe the failure precisely: channels play, EPG blank everywhere; channels play, guide wrong on local channels; guide shifted by three hours; or guide stopped updating after a specific date. That language is much more useful than saying the IPTV app is broken."
+        ]
+      },
+      {
+        "id": "refresh",
+        "title": "Fix #2: Refresh or Reload the EPG",
+        "blocks": [
+          "Most IPTV players have some form of guide refresh, playlist update, or data reload. The exact menu name differs by app, so look for language such as update EPG, refresh guide, reload playlist, sync data, update TV guide, or clear guide cache. Use the least destructive refresh option first.",
+          "A guide refresh is different from reinstalling the app. Refreshing asks the player to download or parse the current guide data again. Reinstalling can remove accounts, favorites, hidden groups, and custom mapping depending on the app. Save or screenshot important settings before doing anything that clears full app data.",
+          "If your player supports automatic refresh, enable it after the guide works. Automatic refresh helps prevent stale listings, but it will not repair a wrong URL or mismatched channel IDs. A broken source refreshed every hour is still broken.",
+          "Give the first refresh enough time to finish before judging it. Large channel lists can require parsing, matching, and local database updates after the download completes. If the app shows a spinner or update status, wait for it. If it fails immediately, suspect a URL, permission, or network problem. If it succeeds but selected channels remain blank, move to mapping rather than repeating the same refresh.",
+          "When a player offers separate playlist and EPG refresh buttons, run them in the right order after source changes: update the playlist first, then update the guide. A new playlist can introduce new channel IDs, renamed groups, or removed channels. Refreshing the guide against an old channel list may preserve mismatches that disappear once both layers are current."
+        ]
+      },
+      {
+        "id": "timezone",
+        "title": "Fix #3: Check Device Time Zone and EPG Offset",
+        "blocks": [
+          "When the guide has the right shows but every program is shifted by the same number of hours, check time settings before touching channel mapping. Confirm the streaming device is using the correct time zone and automatic date/time settings. Daylight-saving changes can expose incorrect manual time settings that went unnoticed for months.",
+          "Only use an EPG offset when the device time is correct and the source consistently displays guide entries early or late. Offsets are blunt tools. A plus or minus adjustment can fix a guide that is globally shifted, but it can also break channels that were already correct. If only a few channels are wrong, mapping or regional guide data is more likely than global offset.",
+          "XMLTV programme times commonly include start and stop timestamps with a timezone offset. If a feed omits, misstates, or inconsistently handles time information, different players may interpret the guide differently. That is why the same source can look correct in one player and shifted in another."
+        ]
+      },
+      {
+        "id": "mapping",
+        "title": "Fix #4: Check Channel Mapping and tvg-id",
+        "blocks": [
+          "Channel mapping is the most important technical concept in EPG troubleshooting. In a simplified M3U entry, a channel may include a tvg-id attribute. In an XMLTV file, a channel has an id attribute, and programme entries point to a channel. The player tries to connect those identifiers so it knows which schedule belongs beside which playable stream.",
+          "A sanitized example looks like this:",
+          "#EXTINF:-1 tvg-id=\"news-east.us\" tvg-name=\"News East\",News East",
+          "https://example.invalid/authorized-stream",
+          "<channel id=\"news-east.us\"><display-name>News East</display-name></channel>",
+          "<programme start=\"20261006190000 -0400\" stop=\"20261006200000 -0400\" channel=\"news-east.us\"><title>Evening News</title></programme>",
+          "In that example, the playlist tvg-id and XMLTV channel id both use news-east.us, so the player has a clean mapping key. If the playlist says news-east.us but the XMLTV file uses news-hd.us, the guide may stay blank unless the player can match by name or you manually map the channel.",
+          "Mapping problems are often partial. Local channels, regional sports networks, plus-one channels, HD/SD duplicates, and renamed groups are common places to see mismatches. If your player supports manual channel assignment, fix one channel and confirm the result before editing many at once. Keep a copy of the original playlist or source details if you are working with editable files.",
+          "Name matching is less reliable than ID matching. A playlist channel named News 5 HD, News 5, and WXYZ-DT may all describe the same station, while a national guide might list a different regional feed with a similar name. That is why tvg-id discipline matters. Exact identifiers reduce guesswork and prevent the player from attaching a valid schedule to the wrong channel.",
+          "If you cannot edit the playlist, look for manual mapping inside the player. Some apps let you assign a guide channel to a playable channel and save that relationship locally. This is useful for a few mismatches, but it becomes tedious if hundreds of channels are wrong. When many IDs are broken, the cleaner fix usually belongs at the source or playlist-editor level."
+        ]
+      },
+      {
+        "id": "cache",
+        "title": "Fix #5: Clear Stale Guide Data Safely",
+        "blocks": [
+          "Players cache EPG data so the guide opens quickly. That cache can become stale after a provider changes IDs, updates logos, rotates URLs, or fixes a schedule issue. Use a guide-specific cache clear or EPG reset option when available. It is safer than clearing all application data.",
+          "Before clearing full app data, assume you may lose configured accounts, favorites, hidden categories, parental settings, custom channel names, or manual guide mapping. If the app supports backup or sync, confirm it is current first. If it does not, write down the login format and any custom EPG URL before clearing anything.",
+          "After clearing guide data, reload one source and wait for the player to finish parsing. Large playlists can take time, and leaving the app too quickly may interrupt the first refresh on some devices.",
+          "Do not clear cache repeatedly as a daily workaround. If the EPG only works immediately after a full reset, something else is unstable: the refresh schedule, the source URL, the app's local database, or the mapping between playlist and guide. Cache clearing should be a repair step, not the normal way you watch TV."
+        ]
+      },
+      {
+        "id": "source-or-app",
+        "title": "Fix #6: Determine Whether the Problem Is App-Specific or Source-Specific",
+        "blocks": [
+          "Use a simple decision tree. If channels fail too, investigate connection, account status, playlist URL, or provider availability first. If channels work but the guide fails everywhere, inspect the EPG source. If guide works for some channels, investigate coverage and mapping. If the guide is shifted by exact hours, inspect time zone and offset.",
+          "Testing the same authorized source in a second reputable player can help, but do it carefully. If the guide is blank in every app, reinstalling one player is unlikely to help. If the guide works in one app but not another, compare source type, EPG URL, mapping behavior, and refresh settings between the two players.",
+          "Avoid using unofficial playlists from random forums to test. They can introduce legal and security risks, and they do not prove anything about your original source. A clean test uses your own authorized account and only changes one variable at a time."
+        ]
+      },
+      {
+        "id": "popular-players",
+        "title": "EPG Problems in Popular IPTV Players",
+        "blocks": [
+          "In TiviMate, many EPG issues come down to the same concepts: the playlist loads, the EPG source is attached, and channel IDs or manual assignments connect guide entries to channels. TiviMate is an Android TV-focused player, so Apple TV users should not assume TiviMate instructions apply to tvOS apps.",
+          "In IPTV Smarters-style apps, guide behavior often depends on whether the account is entered through Xtream Codes API or M3U. Xtream-style logins may pull guide data from the account source, while M3U setups may need a separate EPG URL. Use current app documentation where possible because exact menus vary across similarly named Smarters apps.",
+          "On Apple TV players such as UHF, IPTVX, Snappier IPTV, and iPlayTV, the same principles apply: confirm the login format, confirm EPG support, refresh the guide, and check mapping. Do not assume the player provides schedule data. The source has to supply usable guide information."
+        ]
+      },
+      {
+        "id": "prevent",
+        "title": "How to Prevent EPG Problems",
+        "blocks": [
+          "Keep device time automatic, avoid unnecessary global offsets, and preserve working settings before experimenting. If your app supports backup, sync, or export, use it after the guide is working. That gives you a recovery point if a later setting change makes the guide worse.",
+          "Use a reliable authorized guide source and keep the player updated. App updates can improve parsing, refresh behavior, and compatibility, but they cannot create missing schedule data. If your source frequently changes channel IDs or provides incomplete XMLTV data, expect recurring guide gaps until the source improves.",
+          "When you add a new playlist, add the guide source at the same time and test a handful of channels across different categories. Sports, news, local channels, and movie channels are good test cases because they make wrong programs and wrong time slots easier to spot.",
+          "Keep a small troubleshooting note for your own setup: source format, whether EPG is bundled or separate, whether you use an offset, and which app currently works. That note saves time after device upgrades, app reinstalls, or account changes because you can restore known-good settings instead of rediscovering them from scratch.",
+          "Finally, separate guide quality from content quality. An accurate EPG does not prove a stream is authorized, and an authorized channel can still have imperfect guide metadata. Use legitimate sources, keep expectations realistic, and troubleshoot the guide as data rather than as a mystery hidden inside the video player.",
+          {
+            "type": "rich",
+            "parts": [
+              "The takeaway: if channels play but the guide is wrong, troubleshoot EPG source, refresh, time, cache, and tvg-id mapping before replacing the whole setup. For the broader service and device starting point, visit ",
+              {
+                "label": "Zorba IPTV",
+                "href": "/"
+              },
+              ", then use this guide to keep TV listings accurate."
+            ]
+          }
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "question": "Why does my IPTV say No Information?",
+        "answer": "No Information usually means the player has no usable guide entry for that channel. The channel stream may work, but the EPG source may be missing, stale, unreachable, or not mapped to that channel."
+      },
+      {
+        "question": "What is an XMLTV EPG URL?",
+        "answer": "An XMLTV EPG URL points to guide data that lists channels and scheduled programmes. IPTV players use it to display show titles, times, and descriptions beside playable channels."
+      },
+      {
+        "question": "Why is my IPTV guide showing the wrong time?",
+        "answer": "A wrong-time guide can come from device time settings, daylight-saving handling, XMLTV timestamp interpretation, or an unnecessary EPG offset. Check the device time zone before applying a global offset."
+      },
+      {
+        "question": "Why does EPG work for some channels but not others?",
+        "answer": "Partial EPG usually points to source coverage or channel mapping. Some channels may not have guide data, or the playlist tvg-id may not match the XMLTV channel id."
+      },
+      {
+        "question": "How do I refresh IPTV EPG?",
+        "answer": "Look in your player for update EPG, refresh guide, reload playlist, sync data, or clear guide cache. Use guide-specific refresh options before clearing full app data."
+      }
+    ],
+    "sources": [
+      {
+        "label": "XMLTV DTD reference",
+        "url": "https://github.com/XMLTV/xmltv/blob/master/xmltv.dtd"
+      },
+      {
+        "label": "XMLTV file format wiki",
+        "url": "https://wiki.xmltv.org/index.php/XMLTVFormat"
+      },
+      {
+        "label": "TiviMate official device page",
+        "url": "https://tivimate.com/dashboard/devices"
+      },
+      {
+        "label": "Snappier IPTV App Store listing",
+        "url": "https://apps.apple.com/us/app/snappier-iptv/id1579702567?platform=tv"
+      },
+      {
+        "label": "iPlayTV App Store listing",
+        "url": "https://apps.apple.com/us/app/iplaytv-iptv-m3u-player/id1072226801"
+      }
+    ],
+    "related": [
+      "xtream-codes-iptv-setup-guide",
+      "how-to-fix-iptv-buffering-freezing",
+      "best-iptv-player-for-apple-tv-2026",
+      "iptv-smarters-pro-firestick-setup"
+    ],
+    "publishedAt": "2026-10-06",
+    "modifiedAt": "2026-10-06",
+    "verifiedDate": "October 6, 2026",
+    "author": "Zorba TV Editorial Team",
+    "readingTime": 13
   }
 ]
