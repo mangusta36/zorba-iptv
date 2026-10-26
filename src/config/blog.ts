@@ -5,6 +5,7 @@ export type BlogImage = {
   width: number;
   height: number;
   alt: string;
+  caption?: string;
 };
 
 export type BlogLink = {
@@ -85,16 +86,18 @@ export type BlogArticle = {
 
 export const blogArticles = articles as BlogArticle[];
 
-export const blogPosts = blogArticles.map((article) => ({
-  slug: article.slug,
-  title: article.title,
-  description: article.description,
-  publishedAt: article.publishedAt,
-  image: article.images.hero.src,
-  imageAlt: article.images.hero.alt,
-  category: article.category,
-  readingTime: article.readingTime
-}));
+export const blogPosts = [...blogArticles]
+  .sort((a, b) => new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime())
+  .map((article) => ({
+    slug: article.slug,
+    title: article.title,
+    description: article.description,
+    publishedAt: article.publishedAt,
+    image: article.images.hero.src,
+    imageAlt: article.images.hero.alt,
+    category: article.category,
+    readingTime: article.readingTime
+  }));
 
 export function getBlogArticle(slug: string) {
   return blogArticles.find((article) => article.slug === slug);

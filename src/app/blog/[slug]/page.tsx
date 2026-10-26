@@ -108,18 +108,21 @@ export default async function BlogPostPage({ params }: Props) {
             {article.sections.map((section, index) => (
               <section id={section.id} key={section.id}>
                 <h2>{section.title}</h2>
-                {section.blocks.map((block, blockIndex) => <Block block={block} key={blockIndex} />)}
                 {getInlineImage(article, index) ? (
-                  <Image
-                    src={getInlineImage(article, index)!.src}
-                    alt={getInlineImage(article, index)!.alt}
-                    width={getInlineImage(article, index)!.width}
-                    height={getInlineImage(article, index)!.height}
-                    loading="lazy"
-                    sizes="(max-width: 767px) 100vw, 800px"
-                    className="article-inline-image"
-                  />
+                  <figure className="article-inline-figure">
+                    <Image
+                      src={getInlineImage(article, index)!.src}
+                      alt={getInlineImage(article, index)!.alt}
+                      width={getInlineImage(article, index)!.width}
+                      height={getInlineImage(article, index)!.height}
+                      loading="lazy"
+                      sizes="(max-width: 767px) 100vw, 800px"
+                      className="article-inline-image"
+                    />
+                    {getInlineImage(article, index)!.caption ? <figcaption>{getInlineImage(article, index)!.caption}</figcaption> : null}
+                  </figure>
                 ) : null}
+                {section.blocks.map((block, blockIndex) => <Block block={block} key={blockIndex} />)}
               </section>
             ))}
 
@@ -164,9 +167,7 @@ export default async function BlogPostPage({ params }: Props) {
 }
 
 function getInlineImage(article: BlogArticle, sectionIndex: number) {
-  if (sectionIndex === 1) return article.images.inline[0];
-  if (sectionIndex === 3) return article.images.inline[1];
-  return undefined;
+  return article.images.inline[sectionIndex];
 }
 
 function Block({ block }: { block: BlogBlock }) {
